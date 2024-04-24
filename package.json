@@ -1,9 +1,9 @@
 {
-  "name": "wdio-slack-report-service",
+  "name": "wdio-slack-report-custom-service",
   "version": "0.0.1",
   "description": "WebdriverIO service for Slack Integration",
   "author": "Luis",
-  "homepage": "github.com/LuisDiegoNavas/wdio-slack-report-service",
+  "homepage": "github.com/LuisDiegoNavas/wdio-slack-report-custom-service",
   "license": "MIT",
   "main": "src/index.js",
   "bin": "src/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/LuisDiegoNavas/wdio-slack-report-service.git"
+    "url": "git://github.com/LuisDiegoNavas/wdio-slack-report-custom-service.git"
   },
   "keywords": [
     "webdriverio",
@@ -29,7 +29,7 @@
     "wdio-service"
   ],
   "bugs": {
-    "url": "https://github.com/LuisDiegoNavas/wdio-slack-report-service/issues"
+    "url": "https://github.com/LuisDiegoNavas/wdio-slack-report-custom-service/issues"
   },
   "dependencies": {
     "@slack/webhook": "^6.0.0",
