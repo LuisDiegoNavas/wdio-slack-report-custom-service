@@ -65,7 +65,7 @@ class SlackService {
     
     async after() {
 
-        this.attachment[0].title = `${this.testNameFull} | browser: ${this.caps.browserName} ${this.caps.browserVersion ? `v${this.caps.browserVersion}` : ``}`;
+        this.attachment[0].title = `${this.testNameFull} | platform: ${this.caps.platformName} : }`;
         this.attachment[0].color = `#ffc107`;
         this.attachment.push({author_name: `Total tests: ${this.tests} | Total passed: ${this.passedTests} | Total failed: ${this.failedTests}`, color: `#4366c7` });
 

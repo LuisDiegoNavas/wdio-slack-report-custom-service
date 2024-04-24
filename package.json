@@ -1,6 +1,6 @@
 {
   "name": "wdio-slack-report-custom-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WebdriverIO service for Slack Integration",
   "author": "Luis",
   "homepage": "github.com/LuisDiegoNavas/wdio-slack-report-custom-service",
@@ -25,7 +25,7 @@
   "keywords": [
     "webdriverio",
     "wdio",
-    "slack",
+    "slack-report-custom",
     "wdio-service"
   ],
   "bugs": {
